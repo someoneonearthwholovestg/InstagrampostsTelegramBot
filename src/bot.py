@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
 load_dotenv(dotenv_path)
-bot_token = os.getenv("1124172647:AAFkt12scFZTm4QZYRJScPOicpaB2jQR6UI")
+bot_token = os.getenv("1059789534:AAE2SZ-GfXVRYPjv43UKV7Ux_J6tut2flcY")
 
 bot = telebot.TeleBot(token=bot_token)
 
